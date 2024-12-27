@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Orbitron', cursive;
+  font-size: 2rem;
+  
+  color: #FEF2BF;
+}
+
+#timer{
+  font-family: 'Orbitron', cursive;
+  font-size: 2rem;
+  
+  color: #FEF2BF;
+}
+
+.container {
+  position: relative;
+  display: block;
+  width: 50%;
+  margin: auto;
+
+
+}
+
+h1{
+  font-family: 'Orbitron', cursive;
+  font-size: 4rem;
+  color:#fef2bf;
+}
+
+.red {
+  margin: 1px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 25% 300% 25% 25%;
+}
+
+.green {
+  margin: 1px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 300% 25% 25% 25%;
+}
+
+.yellow {
+  margin: 1px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 25% 25% 25% 300%;
+}
+
+.blue {
+  margin: 1px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 25% 25% 300% 25%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
