@@ -57,7 +57,7 @@ function animatePress(currentKey) {
 
 function playSound(name) {
 
-    var chosenColorSound = new Audio("../assets/MonkeySeeSounds" + name + ".mp3");
+    var chosenColorSound = new Audio("./MonkeySeeSounds" + name + ".mp3");
     chosenColorSound.play();
     }
 
